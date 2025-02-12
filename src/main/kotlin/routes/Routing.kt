@@ -23,6 +23,7 @@ fun Application.configureRouting() {
         allowMethod(HttpMethod.Put)
         allowMethod(HttpMethod.Delete)
         allowHeader(HttpHeaders.ContentType)
+        allowCredentials = true
     }
 
     routing {
